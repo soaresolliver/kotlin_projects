@@ -9,7 +9,7 @@ fun main() {
     values[3] = 3
     values[4] = 2
 
-    for(valor in values) {
+    for (valor in values) {
         println(valor)
     }
     println("----------------------------------------")
@@ -17,12 +17,12 @@ fun main() {
         println(valor)
     }
     println("----------------------------------------")
-    for(index in values.indices) {
+    for (index in values.indices) {
         println(values[index])
     }
     println("----------------------------------------")
     values.sort()
-    for(valor in values) {
+    for (valor in values) {
         println(valor)
     }
 }
